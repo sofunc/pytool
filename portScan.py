@@ -11,7 +11,7 @@ def port_scan(ip, port):
     finally:
         s.close()
 
-ip = input("Enter the IP address you want to scan: ")
+ip = input("Enter the IP: ")
 threads = []
 
 for port in range(1, 100):  # 扫描1-100常用端口
