@@ -9,7 +9,8 @@ url_list = [url for url in url_list if not url.startswith('#')]
 with open('usernames.txt') as f:
     username_list = f.read().splitlines()
 
-password_list = ['123456', 'password', '1234567']
+with open('passwords.txt') as f:
+    password_list = f.read().splitlines()
 
 enum_urls = []
 
