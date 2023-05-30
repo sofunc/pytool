@@ -14,4 +14,4 @@ for filename in os.listdir('apks'):
                 print(f'{filename} 存在 allowBackup=true 安全风险!')
             # 其他检查...
         except ET.ParseError as err:
-            print(f'解析 {filename} 發生错误:{err}')
+            print(f'解析 {filename} 发生错误:{err}')
